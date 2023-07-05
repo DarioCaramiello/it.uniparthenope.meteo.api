@@ -1,0 +1,9 @@
+# Type     Name     Full path to shared object file
+# ----     ----     -------------------------------
+gxdisplay  Cairo    /opt/share/grads/grads-2.2.1/lib/libgxdCairo.so
+gxdisplay  X11      /opt/share/grads/grads-2.2.1/lib/libgxdX11.so
+gxdisplay  gxdummy  /opt/share/grads/grads-2.2.1/lib/libgxdummy.so
+*
+gxprint    Cairo    /opt/share/grads/grads-2.2.1/lib/libgxpCairo.so
+gxprint    GD       /opt/share/grads/grads-2.2.1/lib/libgxpGD.so
+gxprint    gxdummy  /opt/share/grads/grads-2.2.1/lib/libgxdummy.so
