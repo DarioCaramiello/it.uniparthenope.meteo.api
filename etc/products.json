@@ -1,0 +1,1824 @@
+{
+  "chm3": {
+    "type": "model",
+    "desc": {
+      "it": "Qualita' dell'aria bassa risoluzione 120h",
+      "en": "Low quality air resolution 120h"
+    },
+    "timestep": "60",
+    "steps": "120",
+    "outputs": {
+      "gen": {
+        "it": "Visualizzazione generale",
+        "en": "Regular forecast"
+      },
+      "caqi": {
+        "it": "Indice di qualita' dell'aria",
+        "en": "Air quality index"
+      },
+      "co": {
+        "it": "Monossido di carbonio",
+        "en": "Carbon monoxide"
+      },
+      "no2": {
+        "it": "Biossido di azoto",
+        "en": "Nitrogen dioxide"
+      },
+      "o3": {
+        "it": "Ozono",
+        "en": "Ozone"
+      },
+      "pm10": {
+        "it": "Particolato 10 micron",
+        "en": "Particulate 10 micron"
+      },
+      "pm25": {
+        "it": "Particolato 2.5 micron",
+        "en": "Particulate 2.5 micron"
+      },
+      "so2": {
+        "it": "Anidride solforosa",
+        "en": "Sulfur Dioxide"
+      }
+    }
+  },
+  "clm3": {
+    "type": "model",
+    "desc": {
+      "it": "Vento altissima risoluzione 24h",
+      "en": "Very high resolution wind 24h"
+    },
+    "timestep": "60",
+    "steps": "24",
+    "outputs": {
+      "gen": {
+        "en": "Regular forecast",
+        "it": "Visualizzazione generale"
+      },
+      "wn1": {
+        "en": "Wind versor field",
+        "it": "Campo versoriale del vento"
+      },
+      "wn2": {
+        "en": "Wind direction and trend in a hour range",
+        "it": "Tendenza e direzione del vento nell'ora successiva"
+      },
+      "wn3": {
+        "en": "Wind versor field, Beaufort Scale",
+        "it": "Campo versoriale, scala Beaufort"
+      }
+    }
+  },
+  "wcm3": {
+    "type": "model",
+    "desc": {
+      "it": "Diffusione e trasporto traccinti inerti 144h",
+      "en": "Inert tracer transport and diffusion 144h"
+    },
+    "timestep": "60",
+    "steps": "144",
+    "fields": {
+      "link": {
+          "title": {
+          "it": "Collegamento",
+          "en": "Link"
+        },
+        "label": {
+          "it": "Collegamento a pagina delle previsioni",
+          "en": "Link to the forecast page"
+        }
+      },
+      "dateTime": {
+        "title": {
+          "it": "Data",
+          "en": "Date"
+        },
+        "label": {
+          "it": "Data e ora correnti",
+          "en": "Current date and time"
+        },
+        "unit": "date"
+      },
+      "con": {
+        "title": {
+          "it": "Concentrazione",
+          "en": "Concentration"
+        },
+        "label": {
+          "it": "Concentrazione tracciante",
+          "en": "Tracer concentration"
+        },
+        "round": 0,
+        "unit": "n",
+        "aggregate": [
+          "min",
+          "max"
+          ]
+        },
+      "con-min": {
+        "title": {
+          "it": "Concentrazione min",
+          "en": "Concentration min"
+        },
+        "label": {
+          "it": "Concentrazione tracciante Minima",
+          "en": "Minimum tracer concentration"
+        },
+        "round": 0,
+        "unit": "n"
+      },
+      "con-max": {
+        "title": {
+          "it": "Concentrazione max",
+          "en": "Concentration max"
+        },
+        "label": {
+          "it": "Concentrazione tracciante Massima",
+          "en": "Maximum tracer concentration"
+        },
+        "round": 0,
+        "unit": "n"
+      },
+      "sts": {
+        "title": {
+          "it": "Stato",
+          "en": "Status"
+        },
+        "label": {
+          "it": "Valutazione stato",
+          "en": "Status evaluation"
+        },
+        "round": 0,
+        "unit": "n",
+        "aggregate": [
+          "min",
+          "max"
+          ]
+        },
+      "sts-min": {
+        "title": {
+          "it": "Stato min",
+          "en": "Status min"
+        },
+        "label": {
+          "it": "Stato Minimo",
+          "en": "Minimum status"
+        },
+        "round": 0,
+        "unit": "n"
+      },
+      "sts-max": {
+        "title": {
+          "it": "Stato max",
+          "en": "Status max"
+        },
+        "label": {
+          "it": "Stato Massimo",
+          "en": "Maximum status"
+        },
+        "round": 0,
+        "unit": "n"
+      }
+    },
+    "outputs": {
+      "gen": {
+        "it": "Visualizzazione generica",
+        "en": "Regular visualization"
+      },
+      "con": {
+        "it": "Concentrazione",
+        "en": "Concentration"
+      }
+    }
+  },
+  "aiq3": {
+    "type": "model",
+    "desc": {
+      "it": "Predizione contaminazione molluschi da allevamento 144h",
+      "en": "Mussels farm contamination prediction 144h"
+    },
+    "timestep": "60",
+    "steps": "144",
+    "fields": {
+      "link": {
+          "title": {
+          "it": "Collegamento",
+          "en": "Link"
+        },
+        "label": {
+          "it": "Collegamento a pagina delle previsioni",
+          "en": "Link to the forecast page"
+        }
+      },
+      "dateTime": {
+        "title": {
+          "it": "Data",
+          "en": "Date"
+        },
+        "label": {
+          "it": "Data e ora correnti",
+          "en": "Current date and time"
+        },
+        "unit": "date"
+      },
+      "mci": {
+        "title": {
+          "it": "Indice di contaminazione predetto",
+          "en": "Predicted contamination index"
+        },
+        "label": {
+          "it": "Indice contaminazione",
+          "en": "Contamination index"
+        },
+        "round": 0,
+        "unit": "n",
+        "aggregate": [
+          "min",
+          "max"
+          ]
+        },
+      "mci-min": {
+        "title": {
+          "it": "Indice min",
+          "en": "Index min"
+        },
+        "label": {
+          "it": "Valore indice minimo",
+          "en": "Minimum index value"
+        },
+        "round": 0,
+        "unit": "n"
+      },
+      "mci-max": {
+        "title": {
+          "it": "Indice max",
+          "en": "Index max"
+        },
+        "label": {
+          "it": "Valore indice massimo",
+          "en": "Minimum index value"
+        },
+        "round": 0,
+        "unit": "n"
+      }
+    },
+    "outputs": {
+      "gen": {
+        "it": "Visualizzazione generica",
+        "en": "Regular visualization"
+      },
+      "mci": {
+        "it": "Indice di contaminazione predetto",
+        "en": "Predicted contamination index"
+      }
+    }
+  },
+  "rms3": {
+    "type": "model",
+    "desc": {
+      "it": "Dinamica Costiera 7 giorni",
+      "en": "Coastal Dynamics 7 days"
+    },
+    "timestep": "60",
+    "steps": "120",
+    "fields": {
+      "link": {
+          "title": {
+          "it": "Collegamento",
+          "en": "Link"
+        },
+        "label": {
+          "it": "Collegamento a pagina delle previsioni",
+          "en": "Link to the forecast page"
+        }
+      },
+      "dateTime": {
+        "title": {
+          "it": "Data",
+          "en": "Date"
+        },
+        "label": {
+          "it": "Data e ora correnti",
+          "en": "Current date and time"
+        },
+        "unit": "date"
+      },
+      "scd": {
+        "title": {
+          "it": "Current",
+          "en": "Current"
+        },
+        "label": {
+          "it": "Direzione corrente superficiale",
+          "en": "Surface current direction"
+        },
+        "round": 1,
+        "unit": "°N",
+        "aggregate": [
+          "min",
+          "max"
+        ]
+      },
+      "scd-min": {
+        "title": {
+          "it": "Current min",
+          "en": "Current min"
+        },
+        "label": {
+          "it": "Direction corrente superficiale Minima",
+          "en": "Minimum surface current direction"
+        },
+        "round": 1,
+        "unit": "°N"
+      },
+      "scd-max": {
+        "title": {
+          "it": "Current max",
+          "en": "Current max"
+        },
+        "label": {
+          "it": "Direzione corrente superficiale Massima",
+          "en": "Maximum surface current direction"
+        },
+        "round": 1,
+        "unit": "°N"
+      },
+      "scs": {
+        "title": {
+          "it": "Corrent",
+          "en": "Current"
+        },
+        "label": {
+          "it": "Direzione della corrente superficiale",
+          "en": "Surface current direction"
+        }
+      },
+      "scm": {   
+        "title": {
+          "it": "Current",
+          "en": "Current"
+        },
+        "label": {
+          "it": "Velocità corrente superficiale",
+          "en": "Surface current speed"
+        },
+        "round": 1,
+        "unit": "m s-1",
+        "aggregate": [
+          "min",
+          "max"
+        ]
+      },
+      "scm-min": {
+        "title": {
+          "it": "Current min",
+          "en": "Current min"
+        },
+        "label": {
+          "it": "Velocità corrente superficiale Minima",
+          "en": "Minimum surface current speed"
+        },
+        "round": 1,
+        "unit": "m s-1"
+      },
+      "scm-max": {
+        "title": {
+          "it": "Current max",
+          "en": "Current max"
+        },
+        "label": {
+          "it": "Velocità corrente superficiale Massima",
+          "en": "Maximum surface current speed"
+        },
+        "round": 1,
+        "unit": "m s-1"
+      },
+      "sst": {
+        "title": {
+          "it": "SST",
+          "en": "SST"
+        },
+        "label": {
+          "it": "Temperatura Superficiale",
+          "en": "Sea Surface Temperature"
+        },
+        "round": 1,
+        "unit": "°C",
+        "aggregate": [
+          "min",
+          "max",
+          "ave"
+        ]
+      },
+      "sst-min": {
+        "title": {
+          "it": "SST min",
+          "en": "SST min"
+        },
+        "label": {
+          "it": "Temperatura Superficiale Minima",
+          "en": "Minimum Sea Surface Temperature"
+        },
+        "round": 1,
+        "unit": "°C"
+      },
+      "sst-max": {
+        "title": {
+          "it": "SST max",
+          "en": "SST max"
+        },
+        "label": {
+          "it": "Temperatura Superficiale Massima",
+          "en": "Maximum Sea Surface Temperature"
+        },
+        "round": 1,
+        "unit": "°C"
+      },
+      "sss": {   
+        "title": {
+          "it": "SSS",
+          "en": "SSS"
+        },
+        "label": {
+          "it": "Salinità Superficiale",
+          "en": "Sea Surface Salinity"
+        },
+        "round": 1,
+        "unit": "%.",
+        "aggregate": [
+          "min",
+          "max",
+          "ave"
+        ]
+      },
+      "sss-min": {
+        "title": {
+          "it": "SSS min",
+          "en": "SSS min"
+        },
+        "label": {
+          "it": "Salinità Superficiale Minima",
+          "en": "Minimum Sea Surface Salinity"
+        },
+        "round": 1,
+        "unit": "%."
+      },
+      "sss-max": {
+        "title": {
+          "it": "SSS max",
+          "en": "SSS max"
+        },
+        "label": {
+          "it": "Salinità Superficiale Massima",
+          "en": "Maximum Sea Surface Salinity"
+        },
+        "round": 1,
+        "unit": "%."
+      }
+    },
+    "outputs": {
+      "gen": {
+        "it": "Visualizzazione generica",
+        "en": "Regular visualization"
+      },
+      "scu": {
+        "it": "Corrente superficiale",
+        "en": "Sea surface current"
+      },
+      "sss": {
+        "it": "Salinita' superficiale",
+        "en": "Sea surface salinity"
+      },
+      "sst": {
+        "it": "Temperatura superficiale",
+        "en": "Sea surface temperature"
+      }
+    }
+  },
+  "rdr1": {
+    "type": "instrument",
+    "desc": {
+      "it": "Radar Meteo S. Elmo (realtime)",
+      "en": "Radar Meteo S. Elmo (realtime)"
+    },
+    "timestep": "10",
+    "fields": {
+      "link": {
+          "title": {
+          "it": "Collegamento",
+          "en": "Link"
+        },
+        "label": {
+          "it": "Collegamento a pagina delle previsioni",
+          "en": "Link to the forecast page"
+        }
+      },
+      "dateTime": {
+        "title": {
+          "it": "Data",
+          "en": "Date"
+        },
+        "label": {
+          "it": "Data e ora correnti",
+          "en": "Current date and time"
+        },
+        "unit": "date"
+      },
+      "ref": {
+        "title": {
+          "it": "Riflettività",
+          "en": "Reflectivity"
+        },
+        "label": {
+          "it": "Riflettività radar",
+          "en": "Radar reflectivity"
+        },
+        "round": 1,
+        "unit": "DbZ"
+      },
+      "ira": {
+        "title": {
+          "it": "Pioggia Instantanea",
+          "en": "Instantaneous Rain"
+        },
+        "label": {
+          "it": "Pioggia Instantanea",
+          "en": "Instantaneous Rain"
+        },
+        "round": 1,
+        "unit": "mm"
+      },
+      "msk": {
+        "title": {
+          "it": "Maschera",
+          "en": "Mask"
+        },
+        "label": {
+          "it": "Maschera",
+          "en": "Mask"
+        },
+        "round": 0
+      }
+    },
+    "outputs": {
+       "gen": {
+        "it": "Visualizzazione generica",
+        "en": "Regular visualization"
+      },
+      "ref": {
+        "it": "Riflettività",
+        "en": "Reflectivity"
+      },
+      "ira": {
+        "it": "Pioggia instantanea",
+        "en": "Instantaneous Rain"
+      }
+    }
+  },
+  "rdr2": {
+    "type": "instrument",
+    "desc": {
+      "it": "Radar Meteo Autostrade (realtime)",
+      "en": "Radar Meteo Autostrade (realtime)"
+    },
+    "timestep": "10",
+    "fields": {
+      "link": {
+          "title": {
+          "it": "Collegamento",
+          "en": "Link"
+        },
+        "label": {
+          "it": "Collegamento a pagina delle previsioni",
+          "en": "Link to the forecast page"
+        }
+      },
+      "dateTime": {
+        "title": {
+          "it": "Data",
+          "en": "Date"
+        },
+        "label": {
+          "it": "Data e ora correnti",
+          "en": "Current date and time"
+        },
+        "unit": "date"
+      },
+      "ref": {
+        "title": {
+          "it": "Riflettività",
+          "en": "Reflectivity"
+        },
+        "label": {
+          "it": "Riflettività radar",
+          "en": "Radar reflectivity"
+        },
+        "round": 1,
+        "unit": "DbZ"
+      },
+      "ira": {
+        "title": {
+          "it": "Pioggia Instantanea",
+          "en": "Instantaneous Rain"
+        },
+        "label": {
+          "it": "Pioggia Instantanea",
+          "en": "Instantaneous Rain"
+        },
+        "round": 1,
+        "unit": "mm"
+      },
+      "msk": {
+        "title": {
+          "it": "Maschera",
+          "en": "Mask"
+        },
+        "label": {
+          "it": "Maschera",
+          "en": "Mask"
+        },
+        "round": 0
+      }
+    },
+    "outputs": {
+       "gen": {
+        "it": "Visualizzazione generica",
+        "en": "Regular visualization"
+      },
+      "ref": {
+        "it": "Riflettività",
+        "en": "Reflectivity"
+      },
+      "ira": {
+        "it": "Pioggia instantanea",
+        "en": "Instantaneous Rain"
+      }
+    }
+  },
+  "wrf5": {
+    "type": "model",
+    "desc": {
+      "it": "Meteo alta risoluzione 7 giorni",
+      "en": "High resolution weather forecast 7 days"
+    },
+    "timestep": "60",
+    "steps": "168",
+    "autosteps":[ 
+        1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+        3,3,3,3,3,3,3,3,
+        3,3,3,3,3,3,3,3,
+        6,6,6,6,
+        6,6,6,6,
+        6,6,6,6,
+        12,12,
+        12,12
+    ],
+    "fields": {
+      "link": {
+          "title": {
+          "it": "Collegamento",
+          "en": "Link"
+        },
+        "label": {
+          "it": "Collegamento a pagina delle previsioni",
+          "en": "Link to the forecast page"
+        }
+      },
+      "dateTime": {
+        "title": {
+          "it": "Data",
+          "en": "Date"
+        },
+        "label": {
+          "it": "Data e ora correnti",
+          "en": "Current date and time"
+        },
+        "unit": "date"
+      },
+      "iDate": {
+        "title": {
+          "it": "Inizializzazione",
+          "en": "Initialization"
+        },
+        "label": {
+          "it": "Data di inizio simulazione",
+          "en": "Simulation initialization time"
+        },
+        "unit": "date"
+      },
+      "t2c": {
+        "title": {
+          "it": "Temp",
+          "en": "Temp"
+        },
+        "label": {
+          "it": "Temperatura dell'aria a 2 metri",
+          "en": "Air temperature at 2 meters"
+        },
+        "round": 1,
+        "unit": "°C",
+        "aggregate": [
+          "min",
+          "max",
+          "ave"
+        ]
+      },
+      "t2c-min": {
+        "title": {
+          "it": "T min",
+          "en": "T min"
+        },
+        "label": {
+          "it": "Temperatura dell'aria minima a 2 metri",
+          "en": "Minimum air temperature at 2 meters"
+        },
+        "round": 1,
+        "unit": "°C"
+      },
+      "t2c-max": {
+        "title": {
+          "it": "T max",
+          "en": "T max"
+        },
+        "label": {
+          "it": "Temperatura massima dell'aria a 2 metri",
+          "en": "Maximum air temperature at 2 meters"
+        },
+        "round": 1,
+        "unit": "°C"
+      },
+      "rh2": {
+        "title": {
+          "it": "UR",
+          "en": "RH"
+        },
+        "label": {
+          "it": "Umidit&agrave; relativa dell&apos;ria a 2 meters",
+          "en": "Air relative humidity at 2 meters"
+        },
+        "round": 1,
+        "unit": "%",
+        "aggregate": [
+          "min",
+          "max",
+          "ave"
+        ]
+      },
+      "clf": {
+        "title": {
+          "it": "Nuvolosit&agrave;",
+          "en": "Cloud"
+        },
+        "label": {
+          "it": "Frazione di nuvolosit&agrave; integrata",
+          "en": "Integrated cloud fraction"
+        },
+        "round": 2,
+        "unit": "%",
+        "aggregate": [
+          "min",
+          "max",
+          "ave"
+        ]
+      },
+      "crh": {
+        "title": {
+          "it": "Pioggia 1h",
+          "en": "Rain 1h"
+        },
+        "label": {
+          "it": "Pioggia cumulata oraria",
+          "en": "Hourly cumulated rain"
+        },
+        "round": 1,
+        "unit": "mm",
+        "aggregate": [
+          "min",
+          "max",
+          "sum"
+        ]
+      },
+      "crd": {
+        "title": {
+          "it": "Pioggia 24h",
+          "en": "Rain 24h"
+        },
+        "label": {
+          "it": "Pioggia cumulata giornaliera",
+          "en": "Daily cumulated rain"
+        },
+        "round": 1,
+        "unit": "mm",
+        "aggregate": [
+          "min",
+          "max",
+          "sum"
+        ]
+      },
+      "swe": {
+        "title": {
+          "it": "Neve 1h",
+          "en": "Snow 1h"
+        },
+        "label": {
+          "it": "Neve cumulata oraria",
+          "en": "Hourly cumulated snow"
+        },
+        "round": 1,
+        "unit": "cm",
+        "aggregate": [
+          "min",
+          "max",
+          "sum"
+        ]
+      },
+      "slp": {
+        "title": {
+          "it": "Pressione",
+          "en": "Pressure"
+        },
+        "label": {
+          "it": "Pressione a livello del mare",
+          "en": "Sea level air pressure"
+        },
+        "round": 1,
+        "unit": "HPa",
+        "aggregate": [
+          "min",
+          "max",
+          "ave"
+        ]
+      },
+      "wd10": {
+        "title": {
+          "it": "Vento",
+          "en": "Wind"
+        },
+        "label": {
+          "it": "Direzione del vento a 10 metri",
+          "en": "Wind direction at 10 meters"
+        },
+        "round": 1,
+        "unit": "°N",
+        "aggregate": [
+          "min",
+          "max",
+          "ave"
+        ]
+      },
+      "ws10": {
+        "title": {
+          "it": "",
+          "en": ""
+        },
+        "label": {
+          "it": "Velocit&agrave; del vento a 10 metri",
+          "en": "Wind speed at 10 meters"
+        },
+        "round": 1,
+        "unit": "m/s",
+        "aggregate": [
+          "min",
+          "max",
+          "ave"
+        ]
+      },
+      "ws10-min": {
+        "title": {
+          "it": "",
+          "en": ""
+        },
+        "label": {
+          "it": "Minima velocit&agrave; del vento a 10 metri",
+          "en": "Minimum wind speed at 10 meters"
+        },
+        "round": 1,
+        "unit": "m/s"
+      },
+      "ws10-max": {
+        "title": {
+          "it": "",
+          "en": ""
+        },
+        "label": {
+          "it": "Massima velocit&agrave; del vento a 10 metri",
+          "en": "Maximum wind speed at 10 meters"
+        },
+        "round": 1,
+        "unit": "m/s"
+      },
+      "ws10k": {
+        "title": {
+          "it": "",
+          "en": ""
+        },
+        "label": {
+          "it": "Velocit&agrave; del vento a 10 metri",
+          "en": "Wind speed at 10 meters"
+        },
+        "round": 1,
+        "unit": "km/h",
+        "aggregate": [
+          "min",
+          "max",
+          "ave"
+        ]
+      },
+      "ws10k-min": {
+        "title": {
+          "it": "",
+          "en": ""
+        },
+        "label": {
+          "it": "Minima velocit&agrave; del vento a 10 metri",
+          "en": "Minimum wind speed at 10 meters"
+        },
+        "round": 1,
+        "unit": "km/h"
+      },
+      "ws10k-max": {
+        "title": {
+          "it": "",
+          "en": ""
+        },
+        "label": {
+          "it": "Massima velocit&agrave; del vento a 10 metri",
+          "en": "Maximum wind speed at 10 meters"
+        },
+        "round": 1,
+        "unit": "km/h"
+      },
+      "ws10n": {
+        "title": {
+          "it": "",
+          "en": ""
+        },
+        "label": {
+          "it": "Velocit&agrave; del vento a 10 metri",
+          "en": "Wind speed at 10 meters"
+        },
+        "round": 1,
+        "unit": "knt",
+        "aggregate": [
+          "min",
+          "max",
+          "ave"
+        ]
+      },
+      "ws10n-min": {
+        "title": {
+          "it": "",
+          "en": ""
+        },
+        "label": {
+          "it": "Minima velocit&agrave; del vento a 10 metri",
+          "en": "Minimum wind speed at 10 meters"
+        },
+        "round": 1,
+        "unit": "knt"
+      },
+      "ws10n-max": {
+        "title": {
+          "it": "",
+          "en": ""
+        },
+        "label": {
+          "it": "Massima velocità del vento a 10 metri",
+          "en": "Maximum wind speed at 10 meters"
+        },
+        "round": 1,
+        "unit": "knt"
+      },
+      "u10m": {
+        "title": {
+          "it": "U10m",
+          "en": "U10m"
+        },
+        "label": {
+          "it": "componente U del vento a 10 metri",
+          "en": "Rotated wind U component at 10 meters"
+        },
+        "round": 2,
+        "unit": "ms-1"
+      },
+      "v10m": {
+        "title": {
+          "it": "V10m",
+          "en": "V10m"
+        },
+        "label": {
+          "it": "Componente V del vento a 10 metri",
+          "en": "Rotated wind V component at 10 meters"
+        },
+        "round": 2,
+        "unit": "ms-1"
+      },
+      "ws10b": {
+        "title": {
+          "it": "Beaufort",
+          "en": "Beaufort"
+        },
+        "label": {
+          "it": "Velocit&agrave; del vento a 10 metri in scala Beaufort",
+          "en": "Wind speed at 10m in Beaufort Scale"
+        },
+        "round": 2,
+        "unit": "bft"
+      },
+      "dwd10": {
+        "title": {
+          "it": "Rotazione",
+          "en": "Shift"
+        },
+        "label": {
+          "it": "Rotazione della direzione del vento a 10 metri",
+          "en": "Wind direction at 10m shift"
+        },
+        "round": 2,
+        "unit": "°N"
+      },
+      "dws10": {
+        "title": {
+          "it": "",
+          "en": ""
+        },
+        "label": {
+          "it": "Differenza di velocit&agrave; del vento a 10m",
+          "en": "Wind speed difference at 10m"
+        },
+        "round": 2,
+        "unit": "knt"
+      },
+      "tc300": {
+       "title": {
+         "it": "TC300",
+         "en": "TC300"
+       },
+       "label": {
+         "it": "Temperatura a 300 hPa in °C",
+         "en": "Temperature at 300 hPa in °C"
+       },
+       "round": 1,
+       "unit": "%",
+       "aggregate": [
+         "min",
+         "max",
+         "ave"
+       ]
+      },
+      "rh300": {
+       "title": {
+         "it": "UR300",
+         "en": "RH300"
+       },
+       "label": {
+         "it": "Umidit&agrave; relativa a 300 hPa",
+         "en": "Relative humidity at 300 hPa"
+       },
+       "round": 1,
+       "unit": "%",
+       "aggregate": [
+         "min",
+         "max",
+         "ave"
+       ]
+     },
+     "u300": {  
+        "title": {
+          "it": "U300",
+          "en": "U300"
+        },
+        "label": {
+          "it": "componente U del vento a 300 hPa",
+          "en": "Rotated wind U component at 300 hPa"
+        },
+        "round": 2,
+        "unit": "ms-1"
+      },
+      "v300": {  
+        "title": {
+          "it": "V300",
+          "en": "V300"
+        },
+        "label": {
+          "it": "Componente V del vento a 300 hPa",
+          "en": "Rotated wind V component at 300 hPa"
+        },
+        "round": 2,
+        "unit": "ms-1"
+      },
+      "tc500": {
+       "title": {
+         "it": "TC500",
+         "en": "TC500"
+       },
+       "label": {
+         "it": "Temperatura a 500 hPa in °C",
+         "en": "Temperature at 500 hPa in °C"
+       },
+       "round": 1,
+       "unit": "%",
+       "aggregate": [
+         "min",
+         "max",
+         "ave"
+       ]
+      },
+      "rh500": {
+       "title": {
+         "it": "UR500",
+         "en": "RH500"
+       },
+       "label": {
+         "it": "Umidit&agrave; relativa a 500 hPa",
+         "en": "Relative humidity at 500 hPa"
+       },
+       "round": 1,
+       "unit": "%", 
+       "aggregate": [
+         "min",
+         "max",
+         "ave"
+       ]
+     },
+     "u500": {   
+        "title": {
+          "it": "U500",
+          "en": "U500"
+        },
+        "label": {
+          "it": "componente U del vento a 500 hPa",
+          "en": "Rotated wind U component at 500 hPa"
+        },
+        "round": 2,
+        "unit": "ms-1"
+      },
+      "v500": {
+        "title": {
+          "it": "V500",
+          "en": "V500"
+        },
+        "label": {
+          "it": "Componente V del vento a 500 hPa",
+          "en": "Rotated wind V component at 500 hPa"
+        },
+        "round": 2,
+        "unit": "ms-1"
+      },
+      "tc700": {
+       "title": {
+         "it": "TC700",
+         "en": "TC700"
+       },
+       "label": {
+         "it": "Temperatura a 700 hPa in °C",
+         "en": "Temperature at 700 hPa in °C"
+       },
+       "round": 1,
+       "unit": "%",
+       "aggregate": [
+         "min",
+         "max",
+         "ave"
+       ]
+      },
+      "rh700": {
+       "title": {
+         "it": "UR700",
+         "en": "RH700"
+       },
+       "label": {
+         "it": "Umidit&agrave; relativa a 700 hPa",
+         "en": "Relative humidity at 700 hPa"
+       },
+       "round": 1,
+       "unit": "%", 
+       "aggregate": [
+         "min",
+         "max",
+         "ave"
+       ]
+     },
+     "u700": {   
+        "title": {
+          "it": "U700",
+          "en": "U700"
+        },
+        "label": {
+          "it": "componente U del vento a 700 hPa",
+          "en": "Rotated wind U component at 700 hPa"
+        },
+        "round": 2,
+        "unit": "ms-1"
+      },
+      "v700": {
+        "title": {
+          "it": "V700",
+          "en": "V700"
+        },
+        "label": {
+          "it": "Componente V del vento a 700 hPa",
+          "en": "Rotated wind V component at 700 hPa"
+        },
+        "round": 2,
+        "unit": "ms-1"
+      },
+      "tc850": {
+       "title": {
+         "it": "TC850",
+         "en": "TC850"
+       },
+       "label": {
+         "it": "Temperatura a 850 hPa in °C",
+         "en": "Temperature at 850 hPa in °C"
+       },
+       "round": 1,
+       "unit": "%",
+       "aggregate": [
+         "min",
+         "max",
+         "ave"
+       ]
+      },
+      "rh850": {
+       "title": {
+         "it": "UR850",
+         "en": "RH850"
+       },
+       "label": {
+         "it": "Umidit&agrave; relativa a 850 hPa",
+         "en": "Relative humidity at 850 hPa"
+       },
+       "round": 1,
+       "unit": "%", 
+       "aggregate": [
+         "min",
+         "max",
+         "ave"
+       ]
+     },
+     "u850": {   
+        "title": {
+          "it": "U850",
+          "en": "U850"
+        },
+        "label": {
+          "it": "componente U del vento a 850 hPa",
+          "en": "Rotated wind U component at 850 hPa"
+        },
+        "round": 2,
+        "unit": "ms-1"
+      },
+      "v850": {
+        "title": {
+          "it": "V850",
+          "en": "V850"
+        },
+        "label": {
+          "it": "Componente V del vento a 850 hPa",
+          "en": "Rotated wind V component at 850 hPa"
+        },
+        "round": 2,
+        "unit": "ms-1"
+      },
+      "tc925": {
+       "title": {
+         "it": "TC925",
+         "en": "TC925"
+       },
+       "label": {
+         "it": "Temperatura a 925 hPa in °C",
+         "en": "Temperature at 925 hPa in °C"
+       },
+       "round": 1,
+       "unit": "%",
+       "aggregate": [
+         "min",
+         "max",
+         "ave"
+       ]
+      },
+      "rh925": {
+       "title": {
+         "it": "UR925",
+         "en": "RH925"
+       },
+       "label": {
+         "it": "Umidit&agrave; relativa a 925 hPa",
+         "en": "Relative humidity at 925 hPa"
+       },
+       "round": 1,
+       "unit": "%", 
+       "aggregate": [
+         "min",
+         "max",
+         "ave"
+       ]
+     },
+     "u925": {   
+        "title": {
+          "it": "U925",
+          "en": "U925"
+        },
+        "label": {
+          "it": "componente U del vento a 925 hPa",
+          "en": "Rotated wind U component at 925 hPa"
+        },
+        "round": 2,
+        "unit": "ms-1"
+      },
+      "v925": {
+        "title": {
+          "it": "V925",
+          "en": "V925"
+        },
+        "label": {
+          "it": "Componente V del vento a 925 hPa",
+          "en": "Rotated wind V component at 925 hPa"
+        },
+        "round": 2,
+        "unit": "ms-1"
+      },
+            "tc950": {
+       "title": {
+         "it": "TC950",
+         "en": "TC950"
+       },
+       "label": {
+         "it": "Temperatura a 950 hPa in °C",
+         "en": "Temperature at 950 hPa in °C"
+       },
+       "round": 1,
+       "unit": "%",
+       "aggregate": [
+         "min",
+         "max",
+         "ave"
+       ]
+      },
+      "rh950": {
+       "title": {
+         "it": "UR950",
+         "en": "RH950"
+       },
+       "label": {
+         "it": "Umidit&agrave; relativa a 950 hPa",
+         "en": "Relative humidity at 950 hPa"
+       },
+       "round": 1,
+       "unit": "%", 
+       "aggregate": [
+         "min",
+         "max",
+         "ave"
+       ]
+     },
+     "u950": {   
+        "title": {
+          "it": "U950",
+          "en": "U950"
+        },
+        "label": {
+          "it": "componente U del vento a 950 hPa",
+          "en": "Rotated wind U component at 950 hPa"
+        },
+        "round": 2,
+        "unit": "ms-1"
+      },
+      "v950": {
+        "title": {
+          "it": "V950",
+          "en": "V950"
+        },
+        "label": {
+          "it": "Componente V del vento a 950 hPa",
+          "en": "Rotated wind V component at 950 hPa"
+        },
+        "round": 2,
+        "unit": "ms-1"
+      },
+      "tc975": {
+       "title": {
+         "it": "TC975",
+         "en": "TC975"
+       },
+       "label": {
+         "it": "Temperatura a 975 hPa in °C",
+         "en": "Temperature at 975 hPa in °C"
+       },
+       "round": 1,
+       "unit": "%",
+       "aggregate": [
+         "min",
+         "max",
+         "ave"
+       ]
+      },
+      "rh975": {
+       "title": {
+         "it": "UR975",
+         "en": "RH975"
+       },
+       "label": {
+         "it": "Umidit&agrave; relativa a 975 hPa",
+         "en": "Relative humidity at 975 hPa"
+       },
+       "round": 1,
+       "unit": "%", 
+       "aggregate": [
+         "min",
+         "max",
+         "ave"
+       ]
+     },
+     "u975": {   
+        "title": {
+          "it": "U975",
+          "en": "U975"
+        },
+        "label": {
+          "it": "componente U del vento a 975 hPa",
+          "en": "Rotated wind U component at 975 hPa"
+        },
+        "round": 2,
+        "unit": "ms-1"
+      },
+      "v975": {
+        "title": {
+          "it": "V975",
+          "en": "V975"
+        },
+        "label": {
+          "it": "Componente V del vento a 975 hPa",
+          "en": "Rotated wind V component at 975 hPa"
+        },
+        "round": 2,
+        "unit": "ms-1"
+      },
+      "tc1000": {
+       "title": {
+         "it": "TC1000",
+         "en": "TC1000"
+       },
+       "label": {
+         "it": "Temperatura a 1000 hPa in °C",
+         "en": "Temperature at 1000 hPa in °C"
+       },
+       "round": 1,
+       "unit": "%",
+       "aggregate": [
+         "min",
+         "max",
+         "ave"
+       ]
+      },
+      "rh1000": {
+       "title": {
+         "it": "UR1000",
+         "en": "RH1000"
+       },
+       "label": {
+         "it": "Umidit&agrave; relativa a 1000 hPa",
+         "en": "Relative humidity at 1000 hPa"
+       },
+       "round": 1,
+       "unit": "%", 
+       "aggregate": [
+         "min",
+         "max",
+         "ave"
+       ]
+     },
+     "u1000": {   
+        "title": {
+          "it": "U1000",
+          "en": "U1000"
+        },
+        "label": {
+          "it": "componente U del vento a 1000 hPa",
+          "en": "Rotated wind U component at 1000 hPa"
+        },
+        "round": 2,
+        "unit": "ms-1"
+      },
+      "v1000": {
+        "title": {
+          "it": "V1000",
+          "en": "V1000"
+        },
+        "label": {
+          "it": "Componente V del vento a 1000 hPa",
+          "en": "Rotated wind V component at 1000 hPa"
+        },
+        "round": 2,
+        "unit": "ms-1"
+      },
+      "winds": {
+        "title": {
+          "it": "Vento",
+          "en": "Wind"
+        },
+        "label": {
+          "it": "Direzione del vento a 10m",
+          "en": "Wind direction a 10m"
+        }
+      },
+      "wchill": {
+        "title": {
+          "it": "Wind chill",
+          "en": "Wind chill"
+        },
+        "label": {
+          "it": "Temperatura percepita",
+          "en": "Feel as temperature"
+        },
+        "round": 2,
+        "unit": "°C"
+      },
+      "text": {
+        "title": {
+          "it": "",
+          "en": ""
+        },
+        "label": {
+          "it": "Testo",
+          "en": "Text"
+        },
+        "unit": "",
+        "aggregate": [
+
+        ]
+      },
+      "icon": {
+        "title": {
+          "it": "",
+          "en": ""
+        },
+        "label": {
+          "it": "Simbolo",
+          "en": "Symbol"
+        },
+        "unit": "",
+        "aggregate": [
+
+        ]
+      }
+    },
+    "outputs": {
+      "gen": {
+        "en": "Regular forecast",
+        "it": "Visualizzazione generale"
+      },
+      "crh": {
+        "it": "Nuvolosita' e precipitazione cumulata oraria",
+        "en": "Hourly cloudiness and cumulated precipitation"
+      },
+      "crd": {
+        "it": "Precipitazione cumulata giornaliera",
+        "en": "Daily cumulated precipitation"
+      },
+      "gp5": {
+        "it": "Altezza di geopotenziale a 500 HPa",
+        "en": "Geopotential height at 500 HPa"
+      },
+      "gp8": {
+        "it": "Altezza di geopotenziale a 850 HPa",
+        "en": "Geopotential height at 850 HPa"
+      },
+      "tsp": {
+        "it": "Temperatura e pressione al suolo",
+        "en": "Sea level temperature and pressure"
+      },
+      "wn1": {
+        "en": "Wind speed and direction at 10m",
+        "it": "Intensit&agrave; direzione del vento a 10m"
+      },
+      "wn2": {
+        "en": "Wind direction and trend (-1h)",
+        "it": "Tendenza e direzione del vento (-1h)"
+      },
+      "rh2": {
+        "en": "Relative humidity at 2m",
+        "it": "Umidit&agrave; relativa a 2m"
+      },
+      "tc2": {
+        "en": "Temperature in Celsius at 2m",
+        "it": "Temperatura in celsius a 2m"
+      },
+      "swe": {
+        "en": "Hourly cumulated snow fall",
+        "it": "Precipitazione nevosa cumulata oraria"
+      },
+      "rh3": {
+        "en": "Relative humidity and wind at 300 hPa",
+        "it": "Umidit&agrave; relativa e vento a 300 hPa"
+      },
+      "rh5": {
+        "en": "Relative humidity and wind at 500 hPa",
+        "it": "Umidit&agrave; relativa e vento a 500 hPa"
+      },
+      "rh7": {
+        "en": "Relative humidity and wind at 700 hPa",
+        "it": "Umidit&agrave; relativa e vento a 700 hPa"
+      },
+      "rh8": {
+        "en": "Relative humidity and wind at 850 hPa",
+        "it": "Umidit&agrave; relativa e vento a 850 hPa"
+      },
+      "r92": {
+        "en": "Relative humidity and wind at 925 hPa",
+        "it": "Umidit&agrave; relativa e vento a 925 hPa"
+      },
+      "rh9": {
+        "en": "Relative humidity and wind at 950 hPa",
+        "it": "Umidit&agrave; relativa e vento a 950 hPa"
+      },
+      "r97": {
+        "en": "Relative humidity and wind at 975 hPa",
+        "it": "Umidit&agrave; relativa e vento a 975 hPa"
+      },
+      "r10": {
+        "en": "Relative humidity and wind at 1000 hPa",
+        "it": "Umidit&agrave; relativa e vento a 1000 hPa"
+      },
+      "tc3": {
+        "en": "Temperature in Celsius and wind at 300 hPa",
+        "it": "Temperatura in Celsius e vento a 300 hPa"
+      },
+      "tc5": {
+        "en": "Temperature in Celsius and wind at 500 hPa",
+        "it": "Temperatura in Celsius e vento a 500 hPa"
+      },
+      "tc7": {
+        "en": "Temperature in Celsius and wind at 700 hPa",
+        "it": "Temperatura in Celsius e vento a 700 hPa"
+      },
+      "tc8": {
+        "en": "Temperature in Celsius and wind at 850 hPa",
+        "it": "Temperatura in Celsius e vento a 850 hPa"
+      },
+      "t92": {
+        "en": "Temperature in Celsius and wind at 925 hPa",
+        "it": "Temperatura in Celsius e vento a 925 hPa"
+      },
+      "tc9": {
+        "en": "Temperature in Celsius and wind at 950 hPa",
+        "it": "Temperatura in Celsius e vento a 950 hPa"
+      },
+      "t97": {
+        "en": "Temperature in Celsius and wind at 975 hPa",
+        "it": "Temperatura in Celsius e vento a 975 hPa"
+      },
+      "t10": {
+        "en": "Temperature in Celsius and wind at 1000 hPa",
+        "it": "Temperatura in Celsius e vento a 1000 hPa"
+      }
+    }
+  },
+  "ww33": {
+    "type": "model",
+    "desc": {
+      "it": "Moto ondoso alta risoluzione 7 giorni",
+      "en": "High resolution wind driven sea waves 7 days"
+    },
+    "timestep": "60",
+    "steps": "168",
+    "fields": {
+      "link": {
+          "title": {
+          "it": "Collegamento",
+          "en": "Link"
+        },
+        "label": {
+          "it": "Collegamento a pagina delle previsioni",
+          "en": "Link to the forecast page"
+        }
+      },
+      "dateTime": {
+        "title": {
+          "it": "Data",
+          "en": "Date"
+        },
+        "label": {
+          "it": "Data e ora correnti",
+          "en": "Current date and time"
+        },
+        "unit": "date"
+      },
+      "iDate": { 
+        "title": {
+          "it": "Inizializzazione",
+          "en": "Initialization"
+        },
+        "label": {
+          "it": "Data di inizio simulazione",
+          "en": "Simulation initialization time"
+        },
+        "unit": "date"
+      },
+      "hs": {   
+        "title": {
+          "it": "Altezza significativa",
+          "en": "Significant wave height"
+        },
+        "label": {
+          "it": "Altezza significativa",
+          "en": "Significant wave height"
+        },
+        "round": 1,
+        "unit": "m",
+        "aggregate": [
+          "min",
+          "max"
+        ]
+      },
+      "lm": {
+        "title": {
+          "it": "Lunghezza media",
+          "en": "Mean weave lenght"
+        },
+        "label": {
+          "it": "Lunghezza media",
+          "en": "Mean weave lenght"
+        },
+        "round": 1,
+        "unit": "m",
+        "aggregate": [
+          "min",
+          "max"
+        ]
+      },
+      "fp": {
+        "title": {
+          "it": "Frequenza di picco",
+          "en": "Peack frequency"
+        },
+        "label": {
+          "it": "Frequenza di picco",
+          "en": "Peack frequency"
+        },
+        "round": 1,
+        "unit": "s-1",
+        "aggregate": [
+          "min",
+          "max"
+        ]
+      },
+      "dir": {
+        "title": {
+          "it": "Direzione",
+          "en": "Direction"
+        },
+        "label": {
+          "it": "Direzione",
+          "en": "Direction"
+        },
+        "round": 1,
+        "unit": "N",
+        "aggregate": [
+          "min",
+          "max"
+        ]
+      },
+      "period": {
+        "title": {
+          "it": "Periodo medio",
+          "en": "Mean period"
+        },
+        "label": {
+          "it": "Periodo Medio",
+          "en": "Mean period"
+        },
+        "round": 1,
+        "unit": "s",
+        "aggregate": [
+          "min",
+          "max"
+        ]
+      }
+    },
+    "outputs": {
+      "gen": {
+        "it": "Visualizzazione generale",
+        "en": "Regular forecast"
+      },
+      "hsd": {
+        "it": "Altezza significativa e direzione del fronte d'onda",
+        "en": "Significant wave heigh and direction"
+      },
+      "lmd": {
+        "it": "Lunghezza e direzione del fronte d'onda",
+        "en": "Wave length and direction"
+      },
+      "fpd": {
+        "it": "Frequenza di picco e direzione del fronte d'onda",
+        "en": "Wave peak frequency and direction"
+      },
+      "ppd": {
+        "it": "Periodo e direzione del fronte d'onda",
+        "en": "Wave period and direction"
+      }
+    }
+  }
+}
+
