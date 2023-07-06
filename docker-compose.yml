@@ -20,7 +20,7 @@ services:
     volumes:
       # - ./backup_db:/backup_db
       - /storage/ccmmma/prometeo/db_backups/070523/ccmmma-database:/data-db
-      - ./mongorestore.sh:/docker-entrypoint-initdb.d/mongorestore.sh
+      # - ./mongorestore.sh:/docker-entrypoint-initdb.d/mongorestore.sh
     ports:
       - '27017:27017'
     restart: always
