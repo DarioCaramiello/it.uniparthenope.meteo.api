@@ -1,0 +1,16 @@
+{ "euro000": {
+        "id": "euro000",
+        "long_name": {
+            "it": "Europa",
+            "en": "Europe"
+        },
+        "maxLat": 72.9,
+        "maxLon": 44.0,
+        "minLat": 23.6,
+        "minLon": -27.0,
+        "name": {
+            "it": "Europa",
+            "en": "Europe"
+        }
+    }
+}
