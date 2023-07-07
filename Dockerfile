@@ -24,8 +24,8 @@ WORKDIR /project
 CMD ["/usr/bin/supervisord"]
 
 ENV APP_SETTINGS=/project/etc/ccmmmaapi.conf
-# CMD flask --app /project/app run --host 0.0.0.0 --port 50000
-CMD ["python3", "test.py"]
+CMD flask --app /project/app run --host 0.0.0.0 --port 50000
+
 
 
 
