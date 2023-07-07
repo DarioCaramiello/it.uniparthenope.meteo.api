@@ -20,7 +20,7 @@ COPY server-conf/supervisord.conf /etc/supervisor/
 COPY . /project/src
 WORKDIR /project
 
-EXPOSE 50000
+# EXPOSE 50000
 CMD ["/usr/bin/supervisord"]
 
 ENV APP_SETTINGS=/project/etc/ccmmmaapi.conf

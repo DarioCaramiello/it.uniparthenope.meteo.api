@@ -22,7 +22,7 @@ services:
       - /storage/ccmmma/prometeo/db_backups/070523/ccmmma-database:/data-db
       # - ./mongorestore.sh:/docker-entrypoint-initdb.d/mongorestore.sh
     ports:
-      - '27017:27017'
+      - '27018:27017'
     restart: always
     # if you want create a user in to database
     # environment:
@@ -31,6 +31,6 @@ services:
   memcached:
     image: "memcached:1.6.21"
     ports:
-      - '11211:11211'
+      - '11212:11211'
     command: memcached
 
